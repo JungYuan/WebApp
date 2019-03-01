@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html  lang="zh-Hant-TW" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>CCS preactice demo</title>
+		<style type="text/css">
+			.head{
+				background-color: #003344; color: white;font-weight: bold;font-size: 30px;
+				text-align: center;padding: 10px;
+			}
+			.contents{
+				width: 1000px; margin-left: auto; margin-right: auto; border: 1px solid red;
+			}
+			.box{
+				width: 283px;padding: 10px;margin: 10px;
+				background-color: white;
+				display: inline-block;vertical-align: top;
+				text-align: center;line-height: 30px; height: 150px;
+			}
+			.box_title{
+				font-weight: bold;
+			}
+			@media screen and (max-width:600px) {
+				.head{font-size: 24px;}
+				.contents{width: 100%; text-align: center;}
+			}
+		</style>
+
+	</head>
+	<body style="margin: 0px; background-color: #eeeeee;">
+		<div class="head"> 我的HTML CCS 響應式網頁設計 </div>
+		<div class="contents">
+			<div class="box">
+				<div class="box_title">TABLE A</div>
+				<div> class 1</div>
+				<div> class 2</div>
+				<div> class 3</div>
+			</div>
+			<div class="box">
+				<div class="box_title">TABLE B</div>
+				<div> class 1</div>
+				<div> class 2</div>
+				<div> class 3</div>
+			</div>
+			<div class="box">
+				<div class="box_title">TABLE C</div>
+				<div> class 1</div>
+				<div> class 2</div>
+			</div>
+		</div>
+		<div class="container">
+		  <div class="row">
+		    <!-- div class="col-sm" -->
+				<div class="col-sm-6">
+		      One of three columns
+		    </div>
+		    <div class="col-sm">
+		      One of three columns
+		    </div>
+		    <div class="col-sm">
+		      One of three columns
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>
