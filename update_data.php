@@ -50,6 +50,6 @@
         $db_link->close();
      ?>
      <hr>
-     <a href="index.php">返回首頁</a>
+     <a href="home.php">返回Home</a>
   </body>
 </html>

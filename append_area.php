@@ -15,7 +15,7 @@
         <input type="hidden" name="excuting" value="insert">
         <input type="submit" name="button" value="新增資料">
         <input type="reset" name="button_r" value="重新填寫"><br><hr>
-        <a href='index.php'>返回首頁 </a><br>
+        <a href='home.php'>返回首頁 </a><br>
     </form>
     <?php
       if (isset($_POST["excuting"])&&($_POST["excuting"]=="insert")){
